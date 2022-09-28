@@ -22,6 +22,17 @@ body {
       background-color: var(--ps_darkness);
 }
 
+.bg_important {
+      background-color: var(--ps_important);
+}
+
+.bg_primary_lighter {
+      background-color: var(--ps_primary_lighter);
+}
+.primary_light {
+      color: var(--ps_primary_light);
+}
+
 /* #endregion Utilities */
 
 
@@ -89,9 +100,7 @@ body {
       width: 50%;
 }
 
-.jumbotron .btn {
-      background-color: var(--ps_important);
-}
+
 
 .fs_10 {
       font-size: 10px;
