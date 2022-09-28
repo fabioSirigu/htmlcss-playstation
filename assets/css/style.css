@@ -1,0 +1,67 @@
+/* #region Utilities */
+
+:root {
+      --ps_darkness: #000000;
+      --ps_primary: #00439C;
+      --ps_primary_light: #0070D1;
+      --ps_primary_dark: #161C3B;
+      --ps_darker: #1F1F1F;
+      --ps_primary_lighter: #2D64E6;
+      --ps_dark_mute: #363636;
+      --ps_lighter: #727272;
+      --ps_lightning: #BEBCBB;
+      --ps_important: #CD3D0F;
+      --ps_light: #FFFFFF;
+}
+
+body {
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg_darkness {
+      background-color: var(--ps_darkness);
+}
+/* #endregion Utilities */
+
+
+/* #region Debug */
+
+.debug .header-bottom {
+      background-color: #727272;
+      height: 100px;
+}
+
+
+.debug .jumbotron,
+.debug .banner {
+      height: 150px;
+      background-color: #0070D1;
+}
+
+.debug .col {
+      height: 100px;
+      border: 1px solid;
+}
+
+.debug .playstation_v,
+.debug .playstation_iv,
+.debug .social {
+      background-color: #00439C;
+}
+
+.debug .playstation_plus,
+.debug .playstation_now {
+      background-color: #727272;
+}
+
+
+/* #endregion Debug */
+
+/* #region header */
+
+.header-top img {
+      width: 100px;
+      padding: 1rem;
+}
+
+/* #endregion header */
