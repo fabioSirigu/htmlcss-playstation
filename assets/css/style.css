@@ -21,6 +21,7 @@ body {
 .bg_darkness {
       background-color: var(--ps_darkness);
 }
+
 /* #endregion Utilities */
 
 
@@ -64,4 +65,20 @@ body {
       padding: 1rem;
 }
 
+.header-bottom a {
+      color: var(--ps_darkness);
+}
+
+.header-bottom .nav-item button {
+      background-color: var(--ps_dark_mute);
+}
+
+.nav-item .lens {
+      width: 20px;
+      padding: 0 0.15rem;
+}
+
+.header-bottom li {
+      padding: 0.15rem;
+}
 /* #endregion header */
