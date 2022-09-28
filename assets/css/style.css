@@ -82,3 +82,23 @@ body {
       padding: 0.15rem;
 }
 /* #endregion header */
+
+/* #region main */
+
+.jumbotron .logo_return {
+      width: 50%;
+}
+
+.jumbotron .btn {
+      background-color: var(--ps_important);
+}
+
+.fs_10 {
+      font-size: 10px;
+}
+
+.fs_h3 {
+      font-size: 25px;
+}
+
+/* #endregion main */
