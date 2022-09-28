@@ -22,6 +22,10 @@ body {
       background-color: var(--ps_darkness);
 }
 
+.bg_darker {
+      background-color: var(--ps_darker);
+}
+
 .bg_important {
       background-color: var(--ps_important);
 }
@@ -29,10 +33,14 @@ body {
 .bg_primary_lighter {
       background-color: var(--ps_primary_lighter);
 }
+
 .primary_light {
       color: var(--ps_primary_light);
 }
 
+img {
+      width: 100%;
+}
 
 
 /* #endregion Utilities */
@@ -112,9 +120,6 @@ body {
       font-size: 25px;
 }
 
-.games .col img {
-      width: 100%;
-}
 
 .games .col img:hover {
       padding: 2px;
@@ -145,4 +150,9 @@ body {
 .banner .container > div  {
       width: 300px;
 }
+
+.new_releases img {
+      border-radius: 25px;
+}
+
 /* #endregion main */
