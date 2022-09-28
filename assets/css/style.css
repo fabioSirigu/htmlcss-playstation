@@ -12,10 +12,16 @@
       --ps_lightning: #BEBCBB;
       --ps_important: #CD3D0F;
       --ps_light: #FFFFFF;
+      --ps_second_lighter:#D9DADC;
+
 }
 
 body {
       font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg_lighter_nd {
+      background-color: var(--ps_second_lighter);
 }
 
 .bg_darkness {
@@ -34,6 +40,9 @@ body {
       background-color: var(--ps_primary_lighter);
 }
 
+.bg_lightning {
+      background-color: var(--ps_lightning);
+}
 .primary_light {
       color: var(--ps_primary_light);
 }
