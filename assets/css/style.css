@@ -101,4 +101,14 @@ body {
       font-size: 25px;
 }
 
+.games .col img {
+      width: 100%;
+}
+
+.games .col img:hover {
+      padding: 2px;
+      border: 1px solid var(--ps_primary_light);
+      cursor: pointer;
+}
+
 /* #endregion main */
