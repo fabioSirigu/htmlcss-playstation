@@ -33,6 +33,8 @@ body {
       color: var(--ps_primary_light);
 }
 
+
+
 /* #endregion Utilities */
 
 
@@ -120,4 +122,16 @@ body {
       cursor: pointer;
 }
 
+.playstation_v .accessories .col img {
+      width: 80%;
+      opacity: 50%;
+      padding: 20px;
+}
+
+.playstation_v .accessories .col img:hover {
+      opacity: 100%;
+      cursor: pointer;
+      
+      border-bottom: 1px solid var(--ps_primary_light);
+}
 /* #endregion main */
