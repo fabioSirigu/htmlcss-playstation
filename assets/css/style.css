@@ -24,6 +24,9 @@ body {
       background-color: var(--ps_second_lighter);
 }
 
+.bg_primary_dark {
+      background-color: var(--ps_primary_dark);
+}
 .bg_darkness {
       background-color: var(--ps_darkness);
 }
