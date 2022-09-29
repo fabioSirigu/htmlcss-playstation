@@ -151,22 +151,32 @@ header {
       transform: rotateX(180deg);
 }
 
-.arrow {
-      width: 30px;
-      padding: 0.5rem;
-}
-
-.nav-link .arrow {
-      
-}
 
 .header-bottom button:hover {
       box-shadow: inset 0px 0px 1px 3px var(--ps_lightning);
 }
 
+.header-bottom .form-control {
+      width: 50px;
+}
+
+.header-bottom .nav-item .dropstart button {
+      border: none;
+      box-shadow: none;
+      background-color: transparent;
+}
+
+
+.dropstart .dropdown-menu[data-bs-popper] {
+      top: 60px;
+      right: 0;
+}
+
+
 .nav-item.dropdown {
       position: static;
 }
+
 .dropdown_menu img {
       width: 150px;
       padding: 0.5rem 1rem;
