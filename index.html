@@ -19,12 +19,12 @@
 </head>
 
 <body class="">
-      <header>
+      <header class="fixed-top">
             <div class="header-top bg_darkness text-end">
                   <img src="./assets/img/sony_logo.svg" alt="">
             </div>
-            <div class="header-bottom">
-                  <nav class="navbar navbar-expand-lg bg-light">
+            <div class="header-bottom bg-light">
+                  <nav class="navbar navbar-expand-lg ">
                         <div class="container-fluid">
                               <a class="navbar-brand" href="#">
                                     <img src="./assets/img/play_logo.svg" alt="">
@@ -35,19 +35,16 @@
                               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                           <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                      Giochi
+                                                <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                      Giochi                                          
+                                                      <img class="arrow" src="./assets/img/chevron-down-solid.svg" alt="">  
                                                 </a>
-                                                <ul class="dropdown-menu">
-                                                      <li><a class="dropdown-item" href="#">Action</a></li>
-                                                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                      <li><hr class="dropdown-divider"></li>
-                                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                                </ul>
+                                                
                                           </li>
                                           <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                       Hardware
+                                                      <img class="arrow" src="./assets/img/chevron-down-solid.svg" alt=""> 
                                                 </a>
                                                 <ul class="dropdown-menu">
                                                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -57,8 +54,9 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                       Servizi
+                                                      <img class="arrow" src="./assets/img/chevron-down-solid.svg" alt=""> 
                                                 </a>
                                                 <ul class="dropdown-menu">
                                                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -68,8 +66,9 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                       Novità
+                                                      <img class="arrow" src="./assets/img/chevron-down-solid.svg" alt=""> 
                                                 </a>
                                                 <ul class="dropdown-menu">
                                                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -79,8 +78,9 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                       Fai acquisti
+                                                      <img class="arrow" src="./assets/img/chevron-down-solid.svg" alt=""> 
                                                 </a>
                                                 <ul class="dropdown-menu">
                                                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -90,8 +90,9 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                       Supporto
+                                                      <img class="arrow" src="./assets/img/chevron-down-solid.svg" alt=""> 
                                                 </a>
                                                 <ul class="dropdown-menu">
                                                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -103,10 +104,11 @@
                                     </ul>
                                     <div class="d-flex" role="search">
                                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
                                                       <li class="nav-item dropdown">
-                                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                                   My Playstation
+                                                                  <img class="arrow" src="./assets/img/chevron-down-solid.svg" alt=""> 
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -124,9 +126,34 @@
                                                 </ul>
                                           </div>
                                     </div>
+                                    
                               </div>
+                              
                         </div>      
                   </nav>
+                  <div class="nav_bottom d-none">
+                        <div class="dropdown_menu d-flex justify-content-center align-items-center border-bottom">
+                              <div>
+                                    <img src="./assets/img/play-menu-ico.png" alt="">
+                                    <h6 class="text-center">Playstation 5</h6>
+                              </div>
+                              <div>
+                                    <img src="./assets/img/play-menu-ico.png" alt="">
+                                    <h6 class="text-center">Playstation 5</h6>
+                              </div>
+                              <div>
+                                    <img src="./assets/img/play-menu-ico.png" alt="">
+                                    <h6 class="text-center">Playstation 5</h6>
+                              </div>     
+                        </div>
+                        <div class="dropdown_menu d-flex justify-content-center align-items-center">
+                              <ul class="d-flex p-0">
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 2</a></li>
+                                    <li><a href="">Link 3</a></li>
+                              </ul>
+                        </div>
+                  </div>
             </div>
       </header>
       <!-- /. header -->
