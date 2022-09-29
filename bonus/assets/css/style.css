@@ -215,14 +215,29 @@ main {
       color: var(--ps_light);
       background: none;
       margin-bottom: 2rem;
+      border: none;
 }
 
+.jumbotron .card .btn:hover {
+      box-shadow: inset 0px 0px 0px 3px #000000;
+}
 
-.games .col img:hover {
-      padding: 2px;
-      border: 1px solid var(--ps_primary_light);
+/* #endregion jumbotron */
+
+
+.games .col img {
+      transition: 0.2s 0s linear;
+      padding: 2px ;
+}
+.games .col:hover img {
+      
+      border: 2px solid var(--ps_primary_light);
       cursor: pointer;
+      margin-top: -2rem;
 }
+
+
+
 
 .playstation_v .accessories .col img {
       width: 100%;
