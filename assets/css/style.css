@@ -130,20 +130,50 @@ a {
       padding: 0.5rem;
 }
 
+.nav-item.dropdown {
+      position: static;
+}
 .dropdown_menu img {
       width: 150px;
       padding: 0.5rem 1rem;
 }
 
-.dropdown_menu li::before {
+.dropdown-menu a::before {
       content: "\2022"; 
       color: var(--ps_primary_light);
       font-weight: bold;
       padding:0 0.5rem ;
 }
 
-.nav-link:active .nav_bottom {
-      display: block;
+.dropdown-menu {
+      width: 100vw;
+      text-align: center;
+      background-color: var(--ps_light);
+      border: none;
+      border-radius: 0;
+}
+
+.dropdown-menu img {
+      width: 100px;
+}
+
+.dropdown-menu li > div {
+      width: 250px;
+}
+
+.dropdown-menu li > div:hover {
+      border: 0.2rem solid var(--ps_lightning);
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.dropdown-menu[data-bs-popper] {
+      top: 60px;
+      left: 0;
+}
+
+.dropdown-menu li > a {
+      padding: 0.25rem 0.5rem;
 }
 /* #endregion header */
 
