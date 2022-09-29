@@ -132,14 +132,32 @@ header {
       padding: 0.15rem;
 }
 
+.dropdown-toggle::after {
+      content: url(../img/chevron-down-solid.svg);
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      transition: transform 0.2s;
+      border: none;
+}
+
+.dropdown-toggle.show::after {
+      content: url(../img/chevron-down-solid.svg);
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      transition: transform 0.2s;
+      border: none;
+      transform: rotateX(180deg);
+}
 
 .arrow {
       width: 30px;
       padding: 0.5rem;
 }
 
-.nav-link:hover .arrow {
-      transform: rotate(-180deg);
+.nav-link .arrow {
+      
 }
 
 .header-bottom button:hover {
