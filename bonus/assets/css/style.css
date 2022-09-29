@@ -138,7 +138,7 @@ a {
       transform: rotate(-180deg);
 }
 
-button:hover {
+.header-bottom button:hover {
       box-shadow: inset 0px 0px 1px 3px var(--ps_lightning);
 }
 
@@ -218,7 +218,10 @@ main {
       border: none;
 }
 
-.jumbotron .card .btn:hover {
+.jumbotron .card .btn:hover,
+.banner button:hover,
+.playstation_plus button:hover,
+.playstation_now button:hover {
       box-shadow: inset 0px 0px 0px 3px #000000;
 }
 
@@ -229,8 +232,7 @@ main {
       transition: 0.2s 0s linear;
       padding: 2px ;
 }
-.games .col:hover img {
-      
+.games .col:hover img { 
       border: 2px solid var(--ps_primary_light);
       cursor: pointer;
       margin-top: -2rem;
@@ -238,18 +240,23 @@ main {
 
 
 
+.playstation_v button:hover,
+.playstation_iv button:hover {
+      border: 1px solid white;
+      box-shadow: 0px 0px 0px 3px var(--ps_darkness);
+}
 
 .playstation_v .accessories .col img {
       width: 100%;
       opacity: 50%;
       padding: 20px;
+      border-bottom: 2px solid transparent;
 }
 
 .playstation_v .accessories .col img:hover {
       opacity: 100%;
-      cursor: pointer;
-      
-      border-bottom: 1px solid var(--ps_primary_light);
+      cursor: pointer;    
+      border-bottom: 2px solid var(--ps_primary_light);
 }
 
 .banner {
@@ -265,12 +272,48 @@ main {
 
 .new_releases img {
       border-radius: 25px;
+      cursor: pointer;
 }
 
+.sales .col {
+      position: relative;
+}
+.sales button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%);
+      display: none;
+      padding: 0.5rem 1rem;
+      background-color: var(--ps_dark_mute);
+      border-radius: 1rem;
+}
+
+.sales .col:hover img{
+      opacity: 0.5;
+      cursor: pointer;    
+}
+
+.sales .col:hover .buy_now{
+      display: block;
+}
+
+.sales .col .buy_now:hover {
+      box-shadow: inset 0px 0px 0px 3px #000000;
+}
 
 .social .container {
       max-width: 600px;
       margin: auto;
+}
+
+.social img {
+      transition: 0.2s 0s linear;
+}
+
+.social img:hover {
+      transform: scale(1.2);
+      cursor: pointer;
 }
 /* #endregion main */
 
@@ -280,4 +323,7 @@ footer a {
       color: var(--ps_light);
 }
 
+footer p {
+      cursor: pointer;
+}
 /* #endregion footer */
