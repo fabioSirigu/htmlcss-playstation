@@ -1,0 +1,32 @@
+body {
+      background-image: url(../img/44.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.card {
+      width: 500px;
+      margin: auto;
+      padding-bottom: 2rem;
+}
+
+.card-header {
+      position: relative;
+}
+
+.card-header button {
+      position: absolute;
+      top: 50%;
+      right: 2rem;
+      transform: translate(0, -50%);
+}
+
+.card-body .login button:hover {
+      cursor: no-drop;
+      opacity: 0.5;
+}
+
+.card-body .new-account button:hover {
+      cursor: pointer;
+      opacity: 0.5;
+}
