@@ -39,6 +39,9 @@ body {
       background-color: var(--ps_important);
 }
 
+.bg_primary {
+      background-color: var(--ps_primary);
+}
 .bg_primary_lighter {
       background-color: var(--ps_primary_lighter);
 }
@@ -54,7 +57,13 @@ img {
       width: 100%;
 }
 
+li {
+      list-style: none;
+}
 
+a {
+      text-decoration: none;
+}
 /* #endregion Utilities */
 
 
@@ -167,4 +176,13 @@ img {
       border-radius: 25px;
 }
 
+
 /* #endregion main */
+
+/* #region footer */
+
+footer a {
+      color: var(--ps_light);
+}
+
+/* #endregion footer */
