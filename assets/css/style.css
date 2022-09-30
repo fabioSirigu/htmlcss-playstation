@@ -210,6 +210,7 @@ main {
       color: var(--ps_light);
       background: none;
       margin-bottom: 2rem;
+      border: none;
 }
 
 
