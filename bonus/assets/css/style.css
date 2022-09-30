@@ -235,7 +235,7 @@ main {
 
 
 
-#jumbotron .carousel-item > img {
+.carousel-item > img {
       height: 600px;
       object-fit: cover;
 }
@@ -265,7 +265,7 @@ main {
       opacity: 1;
     }
 
-#jumbotron .card {
+.carousel-item .card {
       text-align: left;
       color: var(--ps_light);
       background: none;
@@ -273,7 +273,7 @@ main {
       border: none;
 }
 
-#jumbotron .card .btn:hover,
+.carousel-item .card .btn:hover,
 .banner button:hover,
 .playstation_plus button:hover,
 .playstation_now button:hover {
