@@ -233,19 +233,44 @@ main {
       margin-top: 120px;
 }
 
-.jumbotron {
-      background-image: url(../img/jumbo-bg.png);
-      background-position: center top;
-      background-size: cover;
-      background-repeat: no-repeat;
+
+
+#jumbotron .carousel-item > img {
       height: 600px;
-      display: flex;
-      align-items: flex-end;
+      object-fit: cover;
+}
+
+.logo_return {
+      width: 100%;
 }
 
 
-.jumbotron .card {
-      max-width: 400px;
+.carousel-indicators {
+      position: static;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin-top: 1rem;
+      list-style: none;
+      gap: 1rem;
+      flex-wrap: wrap;
+}
+
+.carousel-indicators [data-bs-target] {
+      box-sizing: border-box;
+      flex: 0 1 auto;
+      padding: 2px;
+      width: 200px;
+      height: 100px;
+      text-indent: 0;
+      cursor: pointer;
+      background-color: transparent;
+      border: 0;
+      opacity: 1;
+    }
+
+#jumbotron .card {
+      text-align: left;
       color: var(--ps_light);
       background: none;
       margin-bottom: 2rem;
@@ -262,7 +287,7 @@ main {
 /* #endregion jumbotron */
 
 
-.games .col img {
+/* .games .col img {
       transition: 0.2s 0s linear;
       padding: 2px ;
 }
@@ -270,12 +295,12 @@ main {
       border: 2px solid var(--ps_primary_light);
       cursor: pointer;
       margin-top: -2rem;
-}
+} */
 
 
 
 .playstation_v button:hover,
-.playstation_iv button:hover {
+.playstation_iv .card-body a:hover {
       border: 1px solid white;
       box-shadow: 0px 0px 0px 3px var(--ps_darkness);
 }
